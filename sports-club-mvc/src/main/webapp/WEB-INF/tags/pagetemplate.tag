@@ -28,6 +28,7 @@
             body {
                 padding-top: 70px;
                 padding-bottom: 20px;
+                /*background-image: url(${pageContext.request.contextPath}/web/img/bg-pattern.jpg);*/
             }
         </style>
 
@@ -105,6 +106,7 @@
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
         <script src="${pageContext.request.contextPath}/web/js/vendor/bootstrap.min.js"></script>
+        <script src="https://use.fontawesome.com/3374d8c062.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/1000hz-bootstrap-validator/0.11.8/validator.js"></script>
         <script src="${pageContext.request.contextPath}/web/js/main.js"></script>      
     </body>

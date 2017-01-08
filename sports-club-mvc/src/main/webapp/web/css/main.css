@@ -18,16 +18,44 @@ span.navbar-form-p {
     padding-left: 15px
 }
 
+.login-header {
+    padding-bottom: 20px;
+}
+
+.login-header h1 {
+    font-size: 2em;
+}
+
+.login-row {
+    padding-top: 10px;
+}
+
 .action-header {
     border-bottom: 1px solid #e7e7e7;
     padding-bottom: 20px;
     margin-bottom: 20px;
 }
 
-.form-horizontal .form-group {
-    margin-right: 0;
-    margin-left: 0;
-/*    margin-bottom: 0;*/
+form label.semantic {
+    text-align: left;
+    position: absolute;
+    overflow: hidden;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    width: 1px;
+    margin: -1px;
+    padding: 0;
+    border: 0;
+}
+
+.login-vertical-align {
+    position: absolute;
+    top: 30%;
+}
+
+i.fa-4 {
+    font-size: 4em;
+    margin-bottom: 20px;
 }
 
 footer {
